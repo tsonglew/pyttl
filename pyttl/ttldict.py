@@ -47,7 +47,7 @@ class TTLDict(UserDict):
 
     def __iter__(self):
         with self._rlock:
-            for k in self.data.keys():
+            for k in list(self.data.keys()):
                 ttl = self.ttl(k)
                 if ttl != -2:
                     yield k

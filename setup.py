@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'pyttl', 
   packages = ['pyttl'],
-  version = '0.1.0',
+  version = '0.1.1',
   license='MIT',
   description = 'python ttl collection in redis style',
   author = 'kasheemlew',
