@@ -1,3 +1,3 @@
 from .ttldict import TTLDict
 
-__all__ = ['TTLDcit']
+__all__ = ['TTLDict']

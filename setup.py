@@ -2,13 +2,13 @@ from distutils.core import setup
 setup(
   name = 'pyttl', 
   packages = ['pyttl'],
-  version = '0.1',
+  version = '0.1.0',
   license='MIT',
   description = 'python ttl collection in redis style',
   author = 'kasheemlew',
   author_email = 'kasheemirvinglew@gmail.com',
   url = 'https://github.com/user/pyttl',
-  download_url = 'https://github.com/user/pyttl/archive/v_01.tar.gz',
+  download_url = 'https://github.com/user/pyttl/archive/v_010.tar.gz',
   keywords = ['ttl', 'collections', 'dict'],
   install_requires=[],
   classifiers=[
